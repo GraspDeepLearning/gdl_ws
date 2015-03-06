@@ -1,0 +1,10 @@
+build/*
+devel/*
+src/*
+*~
+.idea/
+.catkin_workspace
+src/*
+
+!src/.rosinstall
+!.gitignore
