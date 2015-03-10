@@ -1,10 +1,8 @@
 #Repositories related to generation of training data
-- git: {local-name: train/pylearn_classifier, uri: 'git@github.com:GraspDeepLearning/pylearn_classifier.git'}
+- git: {local-name: train/pylearn_classifier_train, uri: 'git@github.com:GraspDeepLearning/pylearn_classifier_train.git'}
 - git: {local-name: train/ivcon, uri: 'git@github.com:GraspDeepLearning/ivcon.git'}
-- git: {local-name: train/aggregate_gazebo_output, uri: 'git@github.com:GraspDeepLearning/aggregate_gazebo_output.git'}
 - git: {local-name: train/aggregate_graspit_output, uri: 'git@github.com:GraspDeepLearning/aggregate_graspit_output.git'}
 - git: {local-name: train/generate_gazebo_output, uri: 'git@github.com:GraspDeepLearning/generate_gazebo_output.git'}
-- git: {local-name: train/generate_grasp_priors, uri: 'git@github.com:GraspDeepLearning/generate_grasp_priors.git'}
 - git: {local-name: train/get_models, uri: 'git@github.com:GraspDeepLearning/get_models.git'}
 - git: {local-name: train/grasp_dataset, uri: 'git@github.com:GraspDeepLearning/grasp_dataset.git'}
 
@@ -14,6 +12,7 @@
 # Runtime Repos
 - git: {local-name: runtime/mesh_builder, uri: 'git@github.com:GraspDeepLearning/mesh_builder.git'}
 - git: {local-name: runtime/ui, uri: 'git@github.com:GraspDeepLearning/ui.git'}
+- git: {local-name: runtime/pylearn_classifier_run, uri: 'git@github.com:GraspDeepLearning/pylearn_classifier_run.git'}
 
 # util repos
 - git: {local-name: utils/path_utils, uri: 'git@github.com:GraspDeepLearning/path_utils.git'}
