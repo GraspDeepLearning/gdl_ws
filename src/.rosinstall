@@ -16,3 +16,10 @@
 
 # util repos
 - git: {local-name: utils/path_utils, uri: 'git@github.com:GraspDeepLearning/path_utils.git'}
+
+#interactive manipulation
+- git: {local-name: ros-interactive-manipulation/graspit_commander, uri: 'git@github.com:GraspDeepLearning/graspit_commander.git'}
+- git: {local-name: ros-interactive-manipulation/graspit_simulator, uri: 'git@github.com:GraspDeepLearning/graspit_simulator.git'}
+- git: {local-name: ros-interactive-manipulation/sql_database, uri: 'git@github.com:GraspDeepLearning/sql_database.git'}
+- git: {local-name: ros-interactive-manipulation/household_objects_database, uri: 'git@github.com:GraspDeepLearning/household_objects_database.git'}
+- git: {local-name: ros-interactive-manipulation/manipulation_msgs, uri: 'git@github.com:GraspDeepLearning/manipulation_msgs.git'}
